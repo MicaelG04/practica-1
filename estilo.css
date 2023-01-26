@@ -1,0 +1,225 @@
+*{  
+    margin: 0;
+    padding: 0;
+}
+body{   
+    background-image: url(img/tatuaje3.jfif);
+}
+header,section,footer{ 
+    width: 960px;
+    margin-left: auto;
+    margin-right: auto;
+    position: relative;
+}
+#encabezado{    
+    background: black;
+    height: 120px;
+    position: sticky;
+    top: 0px;
+    z-index: 10;
+    margin-top: -16px;
+    opacity: 90%;
+    
+}
+.encabezado{    
+    
+    background-color: black;
+    height: 35px;
+    opacity: 90%;
+}
+.nombre{  
+    background-color: black;
+    width: 200px;
+    height: 25px;
+    left: 10px;
+    top: 5px;
+    position: absolute;
+    
+}
+.nombre p{  
+    color: white;
+}
+.derecha{ 
+    background-color: black;
+    width: 200px;
+    height: 25px;
+    position: absolute;
+    right: 20px;
+    top: 5px;
+}
+.derecha p{ 
+    color: white;
+}
+#logo{  
+    background-color: red;
+    width: 200px;
+    height: 50px;
+    position: absolute;
+    top: 20px;
+    left: 20px;
+}
+#titulo{  
+    background-color: black;
+    width: 50%;
+    height: 70px;
+    position: absolute;
+    top: 5px;
+    left: 27%;
+}
+#titulo h1{ 
+    text-align: center;
+    font-size: 70px;
+    margin-top: -10px;
+    color: white;
+}
+#botones ul li{ 
+    list-style: none;
+    background-color: black;
+    width: 800px;
+    height: 25px;
+    position: absolute;
+    display: inline;
+    top: 85px;
+    left: 80px;
+    text-align: center;
+}
+#botones ul li a{   
+    display: inline-block;
+    color: white;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    margin-left: 10px;
+    text-decoration: none;
+
+}
+
+#botones ul li a:hover{   
+    color: red;
+    text-decoration: none;
+}
+#informacion #foto{   
+    background-image: url(img/tatuaje.jpg);
+    height: 600px;
+    background-size: cover;
+    margin-bottom: 10px;
+}
+
+/*#informacion2{  
+    background-color: blue;
+    height: 300px;
+
+#pie{   
+    background-color: black;
+    height: 150px;
+}*/
+
+@media all and (min-width:600px) and (max-width:990px) {    
+    header,section,footer{ 
+        width: 600px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    #encabezado{    
+        height: 120px;
+    }
+    .encabezado{    
+        height: 20px;
+    }
+    .nombre{    
+        height: 15px;
+    }    
+    .nombre p{  
+        font-size:x-small;
+    }
+    .derecha{ 
+        width: 130px;
+        height: 15px;
+    }
+    .derecha p{ 
+        color: white;
+        font-size: x-small;
+        text-align: right;
+    }
+    #logo{  
+        width: 100px;
+    }
+    #titulo{  
+        width: 60%;
+        height: 60px;
+    }
+    #titulo h1{ 
+        font-size: 60px;
+    }
+
+    #botones ul li {   
+        width: 600px;
+        height: 45px;
+        left: 0px;
+        top: 70px;
+        position: absolute;
+        
+    }
+
+    #informacion #foto{   
+        background-size: cover;
+        background-image: url(img/tatuaje5.jpg);
+    }
+
+}
+@media all and (max-width:599px){   
+    header,section,footer{ 
+        width: 95%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    #encabezado{    
+        height: 150px;
+    }
+    .encabezado{    
+        
+        background-color: black;
+        height: 15px;
+    }
+    .nombre{
+        top: 0px;
+        height: 15px;
+    }
+    .nombre p{  
+        font-size:x-small;
+    }
+    .derecha{ 
+        width: 130px;
+    }
+    .derecha{   
+        top: 0px;
+        height: 15px;
+    }
+    .derecha p{ 
+        color: white;
+        font-size: x-small;
+        text-align: right;
+    }
+    #logo{  
+        width: 100px;
+    }
+    #titulo{  
+        width: 50%;
+        height: 100px;
+        left: 35%;
+        
+    }
+    #titulo h1{ 
+        font-size: 40px;
+        margin-top: 20px;
+    }
+    #botones ul li{   
+        width: 100%;
+        height: 50px;
+        left: 0px;
+    }
+
+    #informacion #foto{   
+        background-size: cover;
+        background-image: url(img/tatuaje5.jpg);
+    }
+    
+}
